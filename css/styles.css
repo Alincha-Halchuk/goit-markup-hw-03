@@ -140,10 +140,9 @@ address{
 
 .solutions {
     background-color: #2E2F42;
-
 }
 
-.solution-wrapper {
+.container {
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -190,7 +189,7 @@ address{
     padding-bottom: 120px;
 }
 
-    .features-wrapper{
+    .container{
         display: flex;
     }
 
