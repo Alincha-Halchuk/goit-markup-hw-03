@@ -59,6 +59,10 @@ address{
     border-bottom: 1px solid #e7e9fc
 }
 
+.header-container{
+    display: flex;
+}
+
 .header-container-nav {
     display: flex;
     justify-content: space-between;
