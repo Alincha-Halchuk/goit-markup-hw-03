@@ -54,29 +54,24 @@ address{
 /* -----------------HEADER------------- */
 
 .header {
-    padding: 0 15px;
     border-bottom: 1px solid #e7e9fc
 }
 
 .container {
-    padding: 0 15px;
 }
 
 .header-container{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
 .header-nav {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
 }
 
 .header-logo {
@@ -88,7 +83,6 @@ address{
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
-
 }
 
 .header-logo-color {
@@ -101,7 +95,6 @@ address{
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0
 }
 
 .header-menu-link {
@@ -110,8 +103,6 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-menu-link:hover {
@@ -123,15 +114,12 @@ address{
 
 .header-addres{
     font-style: normal;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-addres-list {
     display: flex;
+    align-items: center;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-addres-link {
@@ -156,10 +144,16 @@ address{
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+    width: 100%;
 }
 
 .container {
-
+display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .solution-title {
@@ -171,7 +165,6 @@ address{
     color: #fff;
     max-width: 496px;
     margin: 0 auto;
-    margin-bottom: 48px;
 }
 .solution-btn {
     font-size: 16px;
@@ -248,7 +241,7 @@ margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455
+    color: #434455;
 }
 
 /* -----------------OURTEAM------------- */
@@ -347,20 +340,18 @@ margin-bottom: 8px;
     row-gap: 48px;
     padding: 0;
     margin: 0;
-        width: calc((100% - 48px) / 3);
 }
 
 
 
 .ourportfolio-item {
-    width: calc((100% - 48px) / 3);
+
 }
 
 .ourportfolio-info-container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    /*flex-basis: calc((100% - 48px) / 3);*/
 }
 
 .ourportfolio-img {
