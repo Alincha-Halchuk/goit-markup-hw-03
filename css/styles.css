@@ -302,7 +302,8 @@ margin-bottom: 8px;
 
 
 .ourteam-img {
-    margin-bottom: 32px;
+    width: 100%;
+    height: auto;
 }
 
 .ourteam-subtitle {
@@ -322,7 +323,6 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
-    margin-bottom: 32px;
 }
 
 /* -----------------OURPORTFOLIO------------- */
@@ -363,12 +363,15 @@ margin-bottom: 8px;
 
 .ourportfolio-info-container {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
     border-top: none;
 }
 
 .ourportfolio-img {
-    margin-bottom: 32px;
+    width: 100%;
+    height: auto;
 }
 
 .ourportfolio-subtitle {
@@ -387,7 +390,6 @@ margin-bottom: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 32px;
 }
 
 
